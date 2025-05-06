@@ -6,6 +6,10 @@ metadata:
   name: william-eks
   region: eu-central-1
 
+vpc:
+  nat:
+    gateway: Disable
+
 nodeGroups:
   - name: ng-1
     instanceType: t3.micro
